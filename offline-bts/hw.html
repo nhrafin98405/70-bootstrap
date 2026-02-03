@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <title>hw</title>
+</head>
+
+<body>
+
+
+  <div class="container border border-secondary mt-4">
+
+    <div class="row">
+      <h1 class="text-center">BOOTSTRAP FORM</h1>
+
+      <!-- text -->
+
+      <div class="col-12 mt-4">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+
+      <!-- text -->
+
+      <div class="col-12 mt-4">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+
+      <!-- textarea -->
+
+      <div class="col-12 mt-4">
+        <label>Address :</label> <br>
+        <textarea style="width: 100% ">
+        </textarea>
+      </div>
+
+      <!-- email -->
+
+      <div class="col-12 mt-4">
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+
+      <!-- select -->
+
+      <div class="col-12 mt-4">
+        <label>Address :</label> <br>
+        <select>
+          <option>Dhaka</option>
+          <option>Mymensingh</option>
+          <option>shylet</option>
+        </select>
+      </div>
+
+      <!-- radio -->
+
+      <div class="col-12 mt-4">
+        <input type="radio" name="r"> MALE
+        <input type="radio" name="r"> Femail
+        <input type="radio" name="r"> Other
+      </div>
+
+      <!-- checkbox -->
+
+      <div class="col-12 mt-4">
+        <input type="checkbox"> Science
+        <input type="checkbox"> arts
+        <input type="checkbox"> comarce
+      </div>
+
+      <!-- file -->
+
+      <div class="col-12 mt-4">
+        <input type="file">
+      </div>
+
+      <!-- number -->
+
+      <div class="col-12 mt-4">
+        <input type="number" class="form-control" placeholder="Phone Number">
+      </div>
+
+      <!-- modal ariya -->
+
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Show a second modal and hide this one with the button below.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                modal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Hide this modal and show the first with the button below.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+                first</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- button ariya -->
+
+
+      <div class="col-6 mt-4 mb-4">
+        <input type="submit" value="Submit" class="btn btn-outline-success" data-bs-target="#exampleModalToggle"
+          data-bs-toggle="modal">
+        <input type="reset" value="Submit" class="btn btn-outline-danger" data-bs-target="#exampleModalToggle"
+          data-bs-toggle="modal">
+        <input type="reset" value="Submit" class="btn btn-outline-warning" data-bs-target="#exampleModalToggle"
+          data-bs-toggle="modal">
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
